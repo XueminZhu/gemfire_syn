@@ -1,0 +1,1810 @@
+<?xml version="1.0"?>
+<!DOCTYPE cache PUBLIC
+    "-//GemStone Systems, Inc.//GemFire Declarative Caching 6.5//EN"
+    "http://www.gemstone.com/dtd/cache6_5.dtd">
+
+<cache>  
+	
+	<disk-store name="ds">
+        <disk-dirs>
+			<disk-dir>D:\GF\d1</disk-dir>
+        </disk-dirs>
+	</disk-store>
+
+	<region name="CMTS_PROCESS_CPCD_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PROCESS_CPCD_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PROCESS_CPCD_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_CPCD_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_CPCD_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_CPCD_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_CPCD_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_PBCS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_PBCS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_PBCS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_PBCS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_CLAT_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_CLAT_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_CLAT_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TASK_CLAT_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PROCESS_CLAT_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PROCESS_CLAT_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PROCESS_CLAT_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PROCESS_PBCS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PROCESS_PBCS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PROCESS_PBCS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CEP_GROUP_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CEP_NODE_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_SNAPSHOT_CEP_GROUP_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_SNAPSHOT_CEP_NODE_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBE_PL_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECI_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECC_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECV_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECI_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECI_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECC_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECC_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECV_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECV_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBE_PF_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBE_PC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_PL_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_PF_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_PC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBR_PL_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBRPRE_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBRFIN_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBRPRE_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBRFIN_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBRPRE_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBRFIN_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBR_PF_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBR_PC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECI_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECC_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECV_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBRPRE_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBRFIN_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAPRE_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAFIN_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBC_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+		
+	<region name="CMTS_CTA_PL_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CTAPRE_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAPRE_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAPRE_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CTAFIN_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAFIN_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAFIN_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTA_PF_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTA_PC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	
+	<region name="CMTS_CBC_PL_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBC_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBC_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBC_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBC_PF_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBC_PC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	
+	<region name="CMTS_CBECI_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECC_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECV_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBRPRE_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBRFIN_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAPRE_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAFIN_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBC_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	
+	<region name="CMTS_CBECI_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECC_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECV_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBRPRE_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBRFIN_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAPRE_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAFIN_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBC_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	
+	<region name="CMTS_CBECI_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECC_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBECV_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBD_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBRPRE_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_CBRFIN_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAPRE_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CTAFIN_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_CBC_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CSBS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CSBS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CSBS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CSBS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CIPS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CIPS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CIPS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CIPS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CSBS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CSBS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CSBS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CIPS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CIPS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CIPS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    
+    <region name="CMTS_EXCEPTION_PCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_PCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_CCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_CCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PWOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PWOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PWOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PWOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PWOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PWOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PWOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_PCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_CCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PWOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_PCOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_CCOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_1024_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PWOS_2048_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_1024_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_PCOS_2048_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_1024_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_CCOS_2048_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    
+    
+    <region name="CMTS_EXCEPTION_NBCPS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_NBCPS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_LCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_LCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_LCIS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_LCIS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_NBCPS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_LCIS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    
+    <region name="CMTS_PROCESS_NBCPS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_NBCPS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_NBCPS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_NBCPS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_NBCPS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_NBCPS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_NBCPS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCIS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCIS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCIS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCIS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCIS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCIS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_LCIS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    
+    <region name="CMTS_TASK_NBCPS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_1024_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_NBCPS_2048_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_1024_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCOS_2048_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_1024_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_LCIS_2048_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    
+    <region name="CMTS_EXCEPTION_MLOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_MLOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_MLOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_MLOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_MLOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_MLOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_MLOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_MLOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_MLOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_MLOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_1024_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_MLOS_2048_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    
+    <region name="CMTS_CONFIG_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    
+    
+    <region name="CMTS_EXCEPTION_DFCT_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_EXCEPTION_DFCT_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_DFCT_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_DFCT_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_DFCT_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_DFCT_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_DFCT_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_DFCT_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_DFCT_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_PROCESS_DFCT_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_1024_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_TASK_DFCT_2048_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    
+    <region name="CMTS_ACTIVITY_APGS_1_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_2_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_4_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_8_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_16_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_32_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_64_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_128_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_256_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_ACTIVITY_APGS_512_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_ACTIVITY_INFO_DFCT_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_DFCT_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_DFCT_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_DFCT_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_ACTIVITY_INFO_CPCD_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_PROCESS_INFO_CPCD_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_TASK_INFO_CPCD_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_PROCESS_EXCEPTION_INFO_CPCD_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_ACTIVITY_INFO_PBCS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_PROCESS_INFO_CLAT_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_PROCESS_INFO_PBCS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_PROCESS_EXCEPTION_INFO_CLAT_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_PROCESS_EXCEPTION_INFO_PBCS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_TASK_INFO_CLAT_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_TASK_INFO_PBCS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_ACTIVITY_INFO_CLAT_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_ACTIVITY_INFO_CSBS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_ACTIVITY_INFO_CIPS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_ACTIVITY_INFO_APGS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_CSBS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_CIPS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_CSBS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_CIPS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_CSBS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_CIPS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_ACTIVITY_INFO_PCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_PCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_PCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_PCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+  	<region name="CMTS_WF_ACTIVITY_INFO_CCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_CCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_CCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_CCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_WF_ACTIVITY_INFO_NBCPS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_NBCPS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_NBCPS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_NBCPS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_ACTIVITY_INFO_LCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_LCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_LCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_LCOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+  	<region name="CMTS_WF_ACTIVITY_INFO_LCIS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_LCIS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_LCIS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_LCIS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_ACTIVITY_INFO_MLOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_EXCEPTION_INFO_MLOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_PROCESS_INFO_MLOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+    <region name="CMTS_WF_TASK_INFO_MLOS_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_MA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_MO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PL_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TA_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TR_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PF_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TM_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PC_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TQ_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TI_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>		
+	<region name="CMTS_TO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_AVO_EXCEPTION_HANDLE_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PVO_EXCEPTION_HANDLE_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_PEVO_EXCEPTION_HANDLE_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_TVO_EXCEPTION_HANDLE_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_EXCEPTION_HANDLE_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+	<region name="CMTS_MAN_EXCEPTION_HANDLE_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+        </region-attributes>
+    </region>
+
+	<region name="CMTS_PROCESSVO_REGION" refid="REPLICATE_PERSISTENT">
+	    <region-attributes ignore-jta="true" disk-store-name="ds" disk-synchronous="false">
+       		<cache-listener>
+				<class-name>net.northking.cache.SimpleCacheListener</class-name>
+			</cache-listener>
+        </region-attributes>
+    </region>
+    
+	<region name="CMTS_TEST_REGION" refid="REPLICATE_PERSISTENT">
+		 <region-attributes >
+        <cache-writer>
+          <class-name>net.northking.cache.SimpleCacheWriter</class-name>
+        </cache-writer>
+      </region-attributes>
+	</region>
+
+</cache>
